@@ -1,4 +1,1 @@
-docker build -t naaz/mymavenapp2:version .
-docker ps -aq | xargs docker stop
-docker rm -f dockerserver
-docker run -d --name dockerserver -p 8787:8080 naaz/mymavenapp2:version
+docker file
